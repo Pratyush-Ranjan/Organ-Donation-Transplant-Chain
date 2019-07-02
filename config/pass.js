@@ -1,7 +1,7 @@
 // load all the things we need
 var LocalStrategy   = require('passport-local').Strategy;
 
-// load up the user model
+// load up the hospital model
 var User            = require('../models/hospitals');
 
 // expose this function to our app using module.exports
