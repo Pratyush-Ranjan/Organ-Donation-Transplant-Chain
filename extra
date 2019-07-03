@@ -1,7 +1,7 @@
 https://ropsten.etherscan.io/tx/0x3c9ed0d64c370e7237e240ec9c9339cc2685755bc9efc1fc6d4449712ef68fdf
 contract address:- 0x33F9c6Eee6451b55E30200377Cd1C1386d3435b3
-https://ropsten.etherscan.io/tx/0x8d5ff253a95ebb91d4c530caaa45afc6ee8318bfeb0198d945dd08e736dd5a92
-other contract:- 0x490e3056B80f5551E58F1eD8968B210fd0712e01
+https://ropsten.etherscan.io/tx/0xd7e9e06294a83f5782c29c69b4007e696203a8e5650247337591419640c92be8
+other contract:- 0xAe13A6b75808D9ad5F004bc9FDe0E1a90BD85bd0
 
 pragma solidity >=0.4.22 <0.6.0;
 
