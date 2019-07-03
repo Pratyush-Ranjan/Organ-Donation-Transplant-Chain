@@ -35,7 +35,7 @@ contract OrganChain {
         address donor;
         bool exist;
     }
-    bytes32 vary="hello";
+
     //global variables
     address[] recipientarr;
     address[] donorarr;
@@ -75,15 +75,18 @@ contract OrganChain {
     returns (address,
     string memory,
     string memory,
-    string memory){
+    string memory,
+    address){
+        address vary=0x0000000000000000000000000000000000000000;
         if(!Donors[donoradd].matchfound)
         return(
             Donors[donoradd].donorid,
             Donors[donoradd].ipfshash,
             Donors[donoradd].organ,
-            Donors[donoradd].bloodgroup);
+            Donors[donoradd].bloodgroup,
+            vary);
         else
-        getdonorwithtransplant(donoradd);
+        return getdonorwithtransplant(donoradd);
     }
     
     function getdonorwithtransplant(address donoradd) internal view
@@ -157,7 +160,7 @@ contract OrganChain {
     //transplant matching
     
     function transplantmatch(address recipientad) public
-    returns(address) {
+    returns(bool) {
         for(uint i=0;i<donorarr.length;i++)
         {
             if( (keccak256(abi.encodePacked((Recipients[recipientad].organ))) == keccak256(abi.encodePacked((Donors[donorarr[i]].organ)))) 
@@ -166,9 +169,14 @@ contract OrganChain {
                 transplantarr.push(recipientad);
                 Recipients[recipientad].matchfound=true;
                 Donors[donorarr[i]].matchfound=true;
-                return (Donors[donorarr[i]].donorid);
+                return true;
             }
         }
+    }
+    
+    function transplantedrecipient(address recipientadr) public view
+    returns (address) {
+        return (Transplants[recipientadr].donor);
     }
     
     //patient record
