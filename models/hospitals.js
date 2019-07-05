@@ -7,8 +7,9 @@ var userSchema= mongoose.Schema({
 	password: {type: String, required: true },
 	hospitalpublickey: {type: String, required:true},
 	address: {type:String, required:true},
-    contact: {type:String, required:true},
-    city: {type : String, required: true}
+    	contact: {type:String, required:true},
+    	city: {type : String, required: true},
+	imgurl: {type: String}
 });
 
 userSchema.methods.generateHash = function(password) {
