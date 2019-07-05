@@ -8,7 +8,8 @@ var hospitals= [new Hospi({
 	hospitalpublickey: '0x68099feE8C881F514dfd6A38fe4F72B9CA5F52e3',
 	address: 'Survey No. 32/2A, Pune, Maharashtra',
 	contact: '020-25434063',
-	city: 'Pune'
+	city: 'Pune',
+	imgurl: './public/images/ace.jpg'
 }),
 new Hospi({
 	username: 'AIIMS Delhi',
@@ -16,7 +17,8 @@ new Hospi({
 	hospitalpublickey: '0x3B38705F2f0839EcfEe2622b867073e6146fEacd',
 	address: 'Aurobindo Marg, New Delhi',
 	contact: '011-26588500',
-	city: 'New Delhi'
+	city: 'New Delhi',
+	imgurl: './public/images/aiims.jpg'
 }),
 new Hospi({
 	username: 'Fortis Hospital',
@@ -24,7 +26,8 @@ new Hospi({
 	hospitalpublickey: '0xEe24e5C62A83c96B1De4b041Bd0b870E6202B5A6',
 	address: 'Sector B-1, vasant kunj, New Delhi',
 	contact: '011-42776222',
-	city: 'New Delhi'
+	city: 'New Delhi',
+	imgurl: './public/images/fortis.jpg'
 }),
 new Hospi({
 	username: 'GB Pant Hospital',
@@ -32,7 +35,8 @@ new Hospi({
 	hospitalpublickey: '0x3CA1077784c6e3fddBFbF7C05a102D80d462e6F9',
 	address: '1, Jawahar Lal Nehru Marg, New Delhi',
 	contact: '011-23234242',
-	city: 'New Delhi'
+	city: 'New Delhi',
+	imgurl: './public/images/gbpant.jpg'
 }),
 new Hospi({
 	username: 'Birla Hospital',
@@ -40,7 +44,8 @@ new Hospi({
 	hospitalpublickey: '0x7DeC649AAe2aEFce55Bb4743D9Da4b7D1Bb89dAf',
 	address: 'Surya Mandir Road, Near Sun Temple, Opposite Mahaveer Residency, Gwalior, Madhya Pradesh',
 	contact: '0751-2405659',
-	city: 'Gwalior'
+	city: 'Gwalior',
+	imgurl: './public/images/birla.jpg'
 }),
 new Hospi({
 	username: 'Apollo Hospital',
@@ -48,7 +53,8 @@ new Hospi({
 	hospitalpublickey: '0x939f865B678AbFa04FD49AA0aEe45B84deBDDA57',
 	address: '18, Kila Gate Road, Vikas Nagar, Near Sai Baba Mandir, Gwalior, Madhya Pradesh',
 	contact: '0751-2454600',
-	city: 'Gwalior'
+	city: 'Gwalior',
+	imgurl: './public/images/apollo.jpg'
 }),
 new Hospi({
 	username: 'Sahara Hospital',
@@ -56,7 +62,8 @@ new Hospi({
 	hospitalpublickey: '0x171A1857D52918FC6d865b0A8c001328d142EF98',
 	address: '19 A, Vijay Nagar Extension, Basant Vihar Colony, Lashkar, Gwalior, Madhya Pradesh',
 	contact: '09926800870',
-	city: 'Gwalior'
+	city: 'Gwalior',
+	imgurl: './public/images/sahara.jpg'
 }),
 new Hospi({
 	username: 'Columbia Asia Hospital',
@@ -64,7 +71,8 @@ new Hospi({
 	hospitalpublickey: '0x3008FBe1fCeEF575BB6E1CC6724E1D86441DC338',
 	address: '22, 2A, Mundhwa - Kharadi Rd, Near Nyati Empire, Santipur, Thite Nagar, Kharadi, Pune, Maharashtra',
 	contact: '020-71290222',
-	city: 'Pune'
+	city: 'Pune',
+	imgurl: './public/images/columbia.jpg'
 })];
 var done=0;
 for(var i=0;i<hospitals.length;i++)
