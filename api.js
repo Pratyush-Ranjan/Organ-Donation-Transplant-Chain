@@ -86,4 +86,15 @@ router.get('/api/hospital/:city', function(req, res, next) {
 	});
 });
 
+router.get('/api/hospital/:name', function(req, res, next) {
+  Hospital.findOne({
+  	name: req.params.name},
+  	function(err,docs){
+  	if (err)
+		res.send(err);
+	else
+		res.json(docs);
+	});
+});
+
 module.exports = router;
