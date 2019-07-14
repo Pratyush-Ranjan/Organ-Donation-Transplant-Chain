@@ -1,6 +1,12 @@
 var Hospi= require('../models/hospitals');
 var mongoose= require('mongoose');
-mongoose.connect('mongodb://localhost/OrganChain');
+mongoose.connect('mongodb://localhost/OrganChain', function(err,db){
+    if (!err){
+        console.log('Connected to /OrganChain!');
+    } else{
+        console.dir(err); //failed to connect
+    }
+});
 
 var hospitals= [new Hospi({
 	username: 'Ace Hospital',
@@ -78,6 +84,7 @@ var done=0;
 for(var i=0;i<hospitals.length;i++)
 {
 	hospitals[i].save(function(err,result){
+		console.log(result);
 		done++;
 		if(done=== hospitals.length)
 			exit();
