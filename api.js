@@ -14,26 +14,27 @@ router.get('/api/donor', function(req, res, next) {
 	});
 });
 
-router.get('/api/donor/:name/:mail', function(req, res, next) {
+router.get('/api/getdonor/:name/:email', function(req, res, next) {
   	Donor.findOne({ 
   	name: req.params.name,
-  	mail: req.params.mail },
+  	email: req.params.email },
   	function(err,docs){
   	if (err)
 		res.send(err);
 	else
 		res.json(docs);
-		res.redirect('/api/deletedonor'+req.params.name,req.params.mail);
 	});
 });
 
-router.get('/api/deletedonor/:name/:mail', function(req, res) {
+router.get('/api/deletedonor/:name/:email', function(req, res) {
 Donor.deleteOne({ 
   	name: req.params.name,
-  	mail: req.params.mail },
+  	email: req.params.email },
   	function(err,docs){
   	if (err)
 		res.send(err);
+	else
+		res.send(200);
 	});
 });
 router.post('/api/adddonor', function(req, res, next) {
@@ -86,9 +87,9 @@ router.get('/api/hospital/:city', function(req, res, next) {
 	});
 });
 
-router.get('/api/hospital/:name', function(req, res, next) {
-  Hospital.findOne({
-  	name: req.params.name},
+router.get('/api/hospitalbykey/:publickey', function(req, res, next) {
+  Hospital.find({
+  	hospitalpublickey: req.params.publickey},
   	function(err,docs){
   	if (err)
 		res.send(err);
