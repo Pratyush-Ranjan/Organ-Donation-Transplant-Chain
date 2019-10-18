@@ -20,17 +20,51 @@ The following screen will appear:-
 
 ## Functionalities
 
-- New Donor<br/>
+- New Donor: <br/>
 Fill out the form and click on the submit button to register as a new donor.
 ![Donor Register Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/Donor_Register.png)
 <br/>
 
-- Donor Login<br/>
+- Donor Login: <br/>
 Enter the ethereum address (public key) of the donor to view the current application status.
 ![Donor Login Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/donor_login.png)
 <br/>
 
-- Hospital Login<br/>
+If donor has not been matched with any recipient:-
+![Donor Profile Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/donorwithoutmatch.png)
+<br/>
+
+If donor has been matched with any recipient:-
+![Donor Profile Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/donorwithmatch.png)
+<br/>
+
+- Hospital Login: <br/>
 Enter the hospital name and password to move to the dashboard.
 ![Hospital Login Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/hospital_login.png)
+<br/>
+
+## Hospital Dashboard
+
+The hospital dashboard offers several functionalities each of which can be accessed by choosing the right option from the taskbar and filling out the required details.
+
+Some of the functionalities are:
+
+- Approve Donor: <br/>
+Enter details and click on submit.
+![Approve Donor Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/approve_donor.png)
+<br/>
+
+- Register Recipient:<br/>
+Enter details and click on submit.
+![Recipient Register Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/recipient_register.png)
+<br/>
+
+- Transplant Match: <br/>
+Click on Match button for designated recipient to find its donor.
+![Matching Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/matching.png)
+<br/>
+
+- Patient Record: <br/>
+Upload medical records of the patient.
+![EMR Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/getEMR.png)
 <br/>
