@@ -6,6 +6,7 @@ Organ and tissue distribution chain inplemented through public blockchain Ethere
 To test, contribute or just see what we did follow few easy steps:
 - clone the repository
 - cd to the directory with the repository
+- cd to Complete Project forlder
 - run `yarn install` (or `npm install` if you don't use yarn)
 - Next, navigate to seed folder and run
   `node hospital-seedr.js`
