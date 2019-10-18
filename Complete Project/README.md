@@ -17,3 +17,20 @@ To test, contribute or just see what we did follow few easy steps:
 The following screen will appear:-
 ![Home Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/home.png)
 <br/>
+
+## Functionalities
+
+- New Donor
+Fill out the form and click on the submit button to register as a new donor.
+![Donor Register Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/Donor_Register.png)
+<br/>
+
+- Donor Login
+Enter the ethereum address (public key) of the donor to view the current application status.
+![Donor Login Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/donor_login.png)
+<br/>
+
+- Hospital Login
+Enter the hospital name and password to move to the dashboard.
+![Hospital Login Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/hospital_login.png)
+<br/>
