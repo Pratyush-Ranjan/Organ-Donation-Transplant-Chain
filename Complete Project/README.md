@@ -13,3 +13,7 @@ To test, contribute or just see what we did follow few easy steps:
 - run the backend using `yarn start` (or `npm start`)
 - Now, Navigate to client folder and run `npm start` to start frontend
 - enjoy!
+
+The following screen will appear:-
+![Home Page](https://github.com/Pratyush-Ranjan/Organ-Donation-Transplant-Chain/blob/master/Complete%20Project/images/home.png)
+<br/>
