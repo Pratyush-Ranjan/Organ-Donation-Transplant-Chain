@@ -55,7 +55,7 @@ contract OrganChain {
     }
     
      modifier checkdonorexist(address addr){
-        require(!Donors[addr].exist,"recipient already added");
+        require(!Donors[addr].exist,"donor already added");
         _;
     }
     
